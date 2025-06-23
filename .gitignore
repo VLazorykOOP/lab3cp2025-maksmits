@@ -1,0 +1,42 @@
+# Ігнорувати цю директорію з JDK
+Oracle_JDK-24/
+!Oracle_JDK-24/README.md  # Якщо потрібно залишити інструкцію
+
+# Загальні системні файли
+.DS_Store
+Thumbs.db
+
+# Файли IDE
+.vscode/
+.idea/
+*.iml
+
+# Компіляція
+*.class
+*.exe
+*.dll
+*.so
+*.jar
+*.war
+*.log
+
+# Node.js (на випадок, якщо є)
+node_modules/
+
+# Python (на випадок, якщо є)
+__pycache__/
+*.pyc
+
+# Архіви
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Git LFS файли (якщо використовуєш)
+.gitattributes
+
+# Бекапи та тимчасові
+*.bak
+*.tmp
+*.swp
